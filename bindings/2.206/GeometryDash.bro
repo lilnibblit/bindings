@@ -13655,7 +13655,7 @@ class RewardsPage : FLAlertLayer, FLAlertLayerProtocol, GJRewardDelegate {
 	}
 
 	static char const* getRewardFrame(int, int);
-	void onClose(cocos2d::CCObject* sender);
+	void onClose(cocos2d::CCObject* sender) = win 0x82fc0;
 	void onFreeStuff(cocos2d::CCObject* sender) = win 0x3a9c20;
 	void onReward(cocos2d::CCObject* sender) = win 0x3a9460;
 	TodoReturn tryGetRewards();
